@@ -10465,6 +10465,9 @@ header.masthead .masthead-heading {
 #team {
   padding: 0 100px
 }  
+#team h2 {
+  padding: 6rem;
+}  
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
