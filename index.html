@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -27,8 +28,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Data</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Tools or network visualization</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Data</a></li> -->
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Data visualizations</a></li>
                         <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">About</a></li>
                     </ul>
@@ -43,18 +44,18 @@
                         <p>Cultural values are the basis of society and huge number of researches are aimed to analyze the population of different countries and regions by their social, political, economic, religious and cultural values. The data obtained make it possible to explain the actions and nature of people and societies, as well as to build theories about the similarities and differences between population groups. Accordingly, political scientists, sociologists, social psychologists, anthropologists, economists are extremely interested in collecting and analyzing this data.</p>
                         <p>Our website is created to show visually countries and their values, represent the data collected from WVS database in convenient digital format and to back it up with analysis which will be made with the help of Tableau visualizations.</p>
                     </div>
-                    <div class="text-section">
+                    <div class="text-section" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">
                         <h3 class="section-heading text-uppercase">Aims</h3>
                         <p>Our team Digital Heroes is aimed to investigate difference in cultural values and compare countries in the Baltic States with closest countries. This project is set in order to collect the data about values in the countries of Baltic States and closest counties, to analyze the data as well as to make an analysis of how economic crisis and other significant factors have changes values over the time.</p>
                     </div>
-                    <div class="text-section">
+                    <div class="text-section" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">
                         <h3 class="section-heading text-uppercase">Mission</h3>
                         <p>Our mission is to emphasize values in Latvia and other countries of Baltic region, compare values with other countries and to make an analysis of current observation. Accordingly, we are aimed to create a forecast of possible changes in values and upcoming changes.</p>
                     </div>
                 </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+<!-- Services-->
+        <!-- <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
@@ -87,23 +88,50 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Portfolio Grid-->
+        </section> -->
+<!-- About-->
+            <!-- <section class="page-section" id="about">
+            </section> -->
+<!-- DATA VISUALIZATIONS-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Tools or network visualization</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Data visualizations</h2>
                 </div>
-<!-- VISUALIZATIONS-->
-                <div class='tableauPlaceholder' id='viz1619789361673' style='position: relative'><noscript><a href='#'><img alt='Countries_waves_treemaps ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Countries_waves_treemaps&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;Countries_waves_treemaps' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Countries_waves_treemaps&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619789361673');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
             </div>
-        </section>
-        <!-- About-->
-            <!-- <section class="page-section" id="about">
-            </section> -->
-        <!-- Team-->
-        <section class="page-section bg-light">
+        <!-- VISUALIZATIONS-->
+                <div class="vis">
+                    <h3>Value comparison in Baltic states through years</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                                <div class='tableauPlaceholder' id='viz1620493990428' style='position: relative'><noscript><a href='#'><img alt='Family ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1620493990428');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                                <div class='tableauPlaceholder' id='viz1620494272870' style='position: relative'><noscript><a href='#'><img alt='Friends ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1620494272870');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        </div>
+                        <div class="col-lg-6">
+                                <div class='tableauPlaceholder' id='viz1620494728437' style='position: relative'><noscript><a href='#'><img alt='Politics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1620494728437');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                                <div class='tableauPlaceholder' id='viz1620494744420' style='position: relative'><noscript><a href='#'><img alt='Work ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;Sheet4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Sheet4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1620494744420');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        </div>
+                    </div>
+                    <h6 class="section-subheading">We visualized four values and how they change through years in Baltic states. We choose wave three with time period from 1995 till 1998, wave 6 with time period from 2010 till 2014 and wave 7 with time period from 2017 till 2020. We did not take wave 4 and wave 5 because there was no data about Baltic states. You can see that family has been very important in all time periods. Friends have been very important in wave 6, but in the rest waves respondents have answered that friends are rather important. Politics in all these waves are not important for respondents. And work has been very important in first two waves, but in last wave respondents have answered that work is rather important. We think it is related with fact that nowadays it is important to have work-life balance. Work-life balance is when person prioritizes the demands of work and demands of personal life. A good work-life balance is when you have less stress, lower risk of burnout and a great sense of well-being. </h6>
+                </div>
+                <div class="vis">
+                    <h3>Economic situation impact on highest rated values</h3>
+                    <div class='tableauPlaceholder' id='viz1620482584302' style='position: relative'><noscript><a href='#'><img alt='All together ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;All_types_veryImportant&#47;1_rss.png' style='border: none;' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;All_types_veryImportant' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;All_types_veryImportant&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div><script type='text/javascript'> var divElement = document.getElementById('viz1620482584302');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <h6 class="section-subheading">In here you can see how economic situation affects respondents' values in answer “very important”. We took data from the World Bank about Latvia’s economic situation from 1997 till 2019. We have 3 time periods with three data, but economic situation data for each year. To make this together we took one year from each time period. From wave 3 we took year 1997, from wave 6 year 2012 and from wave 7 year 2018. Then we took economic situation data from each of these years. So here you can see that in year 2012 there was one of the lowest points in economic situation. But at the same time in that year, we can see that family, friends and work is valued the highest. We can conclude that in the bad economic situation people in Baltic states value very high family, friends and work.</h6>
+                </div>
+                <div class="vis">
+                    <h3>Changes of family value through years</h3>
+                    <div class='tableauPlaceholder' id='viz1620487248949' style='position: relative'><noscript><a href='#'><img alt='Countries_waves' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RP&#47;RPBHCSHK4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none; overflow: hidden;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;RPBHCSHK4' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RP&#47;RPBHCSHK4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1620487248949');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    <h6 class="section-subheading">In this map we visualized how value “family” change through years in Europe. We choose wave 3 and wave 7 and respondents answer “very important”. We took all Europe countries where the data was available. If you go to each red points, you will see how much precents of respondents have answered that family is very important to them.</h6>
+                </div>
+                <div class="vis">
+                    <h3>Family value comparison</h3>
+                    <div class='tableauPlaceholder' id='viz1619789361673' style='position: relative'><noscript><a href='#'><img alt='Countries_waves_treemaps ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Countries_waves_treemaps&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Group_5_data&#47;Countries_waves_treemaps' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Group_5_data&#47;Countries_waves_treemaps&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1619789361673');              var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    <h6 class="section-subheading">Here you can see the same data in map. The biggest squares show that in those countries more respondents answered that they value family “very important” in third wave. For example, in Slovakia 90,90 percent of respondents answered that family is very important, but in Finland 80,40 percent of respondents answered that family is very important. And if the color is darker that shows that in that country more respondents answered that they value “very important” in seventh wave. For example, Poland is very dark and 93,30 precents respondents have answered that family is “very important”, but Lithuania is very light and only 66,70 precents of respondents have answered that family is “very important”.</h6>
+                </div>
+            </section>
+<!-- Team-->
+        <section class="page-section">
             <div id="team">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
@@ -114,7 +142,9 @@
                 </div>
                 <div class="container">
                     <div class="text-center">
-                        <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+                        <p>This website is hosted using GitHub Pages and created on Start Bootstrap template. All project files are available on <a href="https://github.com/ArtisOzols/DigitalHeros" style="color: #e6b301;">GitHub</a>.</p>
+                        <p>All visualizations were created and displayed in website using Tableau data visualization software.</p>
+                        </p>
                     </div>
                 </div>
 
@@ -148,7 +178,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/4.jpg" alt="..." />
                             <h4>Zarui Kaprielova</h4>
                             <p class="text-muted">She has Bachelor’s degree in European Business Studies.</p>
                             <p class="text-muted">Zarui playing piano, reading books, boxing, horse riding and art is Zarui’s interests. Her skillset is analytical/critical thinking, creativity and good visualization skills.</p>
@@ -347,6 +377,10 @@
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
