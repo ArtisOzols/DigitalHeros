@@ -10076,6 +10076,19 @@ p {
   box-shadow: gray 0px 2px;
   padding: 20px;
 }
+#sss {
+  font-size: 1rem;
+  line-height: 2.3rem;
+  font-weight: 900;
+  font-style: normal;
+  font-family: 'Josefin Sans', sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+  background-color: white;
+  border-bottom: black 1px solid;
+  box-shadow: gray 0px 2px;
+  padding: 20px;
+
+}
 #xxx ul {
   list-style: none;
 }
