@@ -10073,7 +10073,7 @@ p {
   margin-bottom: 4rem;
   background-color: white;
   border-bottom: black 1px solid;
-  box-shadow: gray 2px 2px;
+  box-shadow: gray 0px 2px;
   padding: 20px;
 }
 #xxx ul {
