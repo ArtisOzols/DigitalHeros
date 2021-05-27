@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,900&display=swap');
  :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6047,15 +6048,57 @@ a.close.disabled {
     color: #fed136;
     text-transform: capitalize !important;
 }
+#DataVis {
+  margin-bottom: 70px;
+  padding-top: 0px;
+}
 .vis h3{
   text-align: center;
-  padding: 40px 0 20px 0;
+  padding: 20px 0 20px 0;
+  margin: 30px 200px 0 200px;
+  font-size: 1.5rem;
 }
 .vis {
   width: 95vw;
   margin: 0 auto;
 }
+.theVis {
+  position: absolute !important;  
+  top: -90000px;
+}
+.expanded {
+  position: relative !important;
+  top: unset;
+}
 
+#expand1, #expand2, #expand3, #expand4, #expand5, #expand6, #expand7, #expand8 {
+  border-radius: 15px;
+  font-weight: 100;
+  background-color: black;
+  color:  #fed136;
+}
+#expand6, #expand7, #expand8 {
+  border: 2px solid #fed136; 
+}
+#t {
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.b-white {
+  border: 2px solid white !important; 
+  color:  #fed136 !important;
+}
+#expand1:hover, #expand2:hover, #expand3:hover, #expand4:hover, #expand5:hover, #expand6:hover, #expand7:hover, #expand8:hover {
+  color:  white;
+}
+.clicked {
+  color: black !important;
+  margin-bottom: 20px !important;
+  background-color: unset !important;
+  font-weight: 900 !important; 
+  border-bottom: 2px solid black;
+  border-radius: 0px !important;
+}
 #viz1620482584302 {
   width: 180vw;
 }
@@ -6066,11 +6109,11 @@ a.close.disabled {
   width: 50vw;
 }
 @media (min-width: 768px) {
-  #viz1620482584302 {
+  #viz1620482584302, #viz161978936167 {
     width: 50vw;
   }
-  #viz1619789361673 {
-    width: 50vw;
+  #viz1622101094379 {
+    height: 70vh;
   }
 }
 .spinner-border-sm {
@@ -10072,22 +10115,17 @@ p {
   font-family: 'Josefin Sans', sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
   background-color: white;
-  border-bottom: black 1px solid;
-  box-shadow: gray 0px 2px;
   padding: 20px;
 }
-#sss {
+.sss {
   font-size: 1rem;
   line-height: 2.3rem;
   font-weight: 900;
   font-style: normal;
   font-family: 'Josefin Sans', sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
   background-color: white;
-  border-bottom: black 1px solid;
-  box-shadow: gray 0px 2px;
   padding: 20px;
-
 }
 #xxx ul {
   list-style: none;
