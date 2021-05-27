@@ -6058,6 +6058,12 @@ a.close.disabled {
   margin: 30px 200px 0 200px;
   font-size: 1.5rem;
 }
+@media (max-width: 576px) {
+  .vis h3  {
+    margin: 30px 0 0 0;
+  }
+}
+
 .vis {
   width: 95vw;
   margin: 0 auto;
@@ -10281,7 +10287,7 @@ header.masthead {
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
