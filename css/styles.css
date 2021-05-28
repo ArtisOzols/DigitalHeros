@@ -3176,6 +3176,9 @@ input[type=button].btn-block {
 .dropdown-menu.show {
   display: block;
 }
+header {
+  padding-bottom: 6rem !important;
+}
 
 .dropdown-header {
   display: block;
@@ -10334,6 +10337,10 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
+a {
+  color: #e6b301;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
